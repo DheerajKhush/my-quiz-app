@@ -1,0 +1,263 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Enter your name"
+            android:id="@+id/edit_text"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How much do you know me?"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Q1:what do i use the most?" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="facebook"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+            <RadioButton
+                android:id="@+id/whatsapp"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="whatsapp"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fb"/>
+                <ImageView
+                    android:src="@drawable/images"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20sp"
+            android:text="Q2: what is my favourite color?" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="45dp"/>
+            <RadioButton
+                android:id="@+id/blue"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blue"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/red"
+                />
+            <ImageView
+                android:src="@drawable/blue"
+                android:layout_width="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:text="Q3: what is my favourite fast-food?" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/phav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pav Bhaji"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="45dp"/>
+            <RadioButton
+                android:id="@+id/chole"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chole-Bhature"/>
+        </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/pav" />
+        <ImageView
+            android:src="@drawable/chole"
+            android:layout_width="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:text="Q4: which is my favourite cartoon?" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/doraemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doraemon"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="45dp"/>
+            <RadioButton
+                android:id="@+id/shinchan"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shinchan"/>
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/dora" />
+            <ImageView
+                android:src="@drawable/shin"
+                android:layout_width="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            android:text="Q4: which phone i want to buy?" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/iphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iphone X"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="45dp"/>
+            <RadioButton
+                android:id="@+id/oneplus"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="one plus 6"/>
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/iphonex" />
+            <ImageView
+                android:src="@drawable/oneplus"
+                android:layout_width="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="Get score"
+            android:layout_marginTop="20sp"
+            android:textSize="15dp"
+            android:onClick="quiz"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+
+            android:fontFamily="cursive"
+            android:id="@+id/My_score"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="developer : Dheeraj khushalani  prateek"
+            android:layout_gravity="right"
+            android:textSize="20sp"
+
+            android:fontFamily="cursive"/>
+
+    </LinearLayout>
+</ScrollView>
